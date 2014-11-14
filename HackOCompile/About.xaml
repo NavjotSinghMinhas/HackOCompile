@@ -1,0 +1,15 @@
+﻿<Window x:Class="HackOCompile.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About" Height="150" Width="300" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid Background="#eee">
+        <Image Source="Images\GraySeperator.png" HorizontalAlignment="Left" Width="0.5" Stretch="UniformToFill" Height="150"/>
+        <Image Source="Images\GraySeperator.png" HorizontalAlignment="Right" Width="1" Stretch="UniformToFill" Height="150"/>
+        <Image Source="Images\GraySeperator.png" VerticalAlignment="Top" Width="300" Stretch="UniformToFill" Height="0.5"/>
+        <Image Source="Images\GraySeperator.png" VerticalAlignment="Bottom" Width="300" Stretch="UniformToFill" Height="0.75"/>
+        <Label HorizontalAlignment="Center" Margin="0,15,0,0" Foreground="Black">Developed by</Label>
+        <Label HorizontalAlignment="Center" Margin="0,50,0,0">Navjot Singh Minhas</Label>
+        <Button BorderThickness="0" Height="20" Width="190" Margin="0,30,0,0" Foreground="Blue" Click="Button_Click_1" Background="Transparent" HorizontalAlignment="Center">http://www.navjotsinghminhas.com</Button>
+        <Button BorderThickness="0" Height="20" Width="30" Margin="0,90,0,0" Click="Button_Click" Background="Transparent" HorizontalAlignment="Center">Close</Button>
+    </Grid>
+</Window>
